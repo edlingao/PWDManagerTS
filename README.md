@@ -4,9 +4,9 @@
 
 Run
 
-> docker compose build
+`docker compose build`
 
-> docker compose up 
+`docker compose up` 
 
 # Create T3 App
 
