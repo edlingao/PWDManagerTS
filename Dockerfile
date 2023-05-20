@@ -7,9 +7,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Build the Next.js app
-RUN npm run build
-
 # Generate prisma
 RUN npx prisma generate
 
